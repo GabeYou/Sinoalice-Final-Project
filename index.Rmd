@@ -43,7 +43,7 @@ x %>%
   mutate(TOTAL= str_remove(TOTAL,"Lv140")) %>% 
   mutate(TOTAL= parse_number(TOTAL)) %>% 
   ggplot(aes(x=COST,y=TOTAL,color=Type))+
-  geom_jitter(alpha=.1, size=1)+
+  geom_jitter(alpha=.3, size=1)+
   theme_classic()+
   
   coord_cartesian(xlim = c(0, 30))+

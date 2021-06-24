@@ -20,7 +20,7 @@ raw_data = read_csv("FinalProjectDatax.csv")
   
   
 
-
+x
         
 ```
 
@@ -30,7 +30,7 @@ x %>%
   group_by(TOTAL) %>% 
   mutate(TOTAL= str_remove(TOTAL,"Lv140")) %>% 
   mutate(TOTAL= parse_number(TOTAL)) %>% 
-  ggplot(aes(x=COST,y=TOTAL, fill=TOTAL))+
+  ggplot(aes(x=COST,y=TOTAL,color=COST))+
   geom_jitter(alpha=.1, size=1)+
   theme_classic()+
   facet_wrap(~Type)+

@@ -35,7 +35,7 @@ x %>%
   theme_classic()+
   facet_wrap(~Type)+
   coord_cartesian(xlim = c(0, 30))+
-  labs(title= "Sinoalice Weapons Total Power vs Cost for each weapon Catagory", subtitle= "highest density of weapons is around the 15-25 cost range and the weapon range is similar but there is a slight bias for multi target weapons ", y="Total Weapon Power", caption = "Source:SINoALICE developed by Pokelabo")
+  labs(title= "Sinoalice Weapons Total Power vs Cost for each Weapon Category", subtitle= "Highest density of weapons is around the 15-25 cost range and the weapon range is similar but there is a slight bias for multi target weapons ", y="Total Weapon Power", caption = "Source:SINoALICE developed by Pokelabo")
 ```
 ```{r, echo=FALSE}
 x %>% 
@@ -47,5 +47,5 @@ x %>%
   theme_classic()+
   
   coord_cartesian(xlim = c(0, 30))+
-  labs(title= "Sinoalice Weapons Total Power vs Cost for each weapon Catagory", subtitle= "highest density of weapons is around the 15-25 cost range and the weapon range is similar but there is a slight bias for multi target weapons ", y="Total Weapon Power", caption = "Source:SINoALICE developed by Pokelabo")
+  labs(title= "Sinoalice Weapons Total Power vs Cost for each Weapon Category", subtitle= "Highest density of weapons is around the 15-25 cost range and the weapon range is similar but there is a slight bias for multi target weapons ", y="Total Weapon Power", caption = "Source:SINoALICE developed by Pokelabo")
 ```
